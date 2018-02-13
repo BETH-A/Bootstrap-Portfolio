@@ -2,7 +2,8 @@
 
 /* content styling */
 body {
-    background: url(../images/brushed_alu_dark.png);
+    background: url(../images/blue_flower2.png) no-repeat center;
+    background-size: cover;
 }
 
 p {
@@ -24,6 +25,10 @@ p {
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     height: 60px;
     background: #e9ecef;
     color: #666666;
