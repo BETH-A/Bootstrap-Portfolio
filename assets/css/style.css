@@ -10,6 +10,10 @@ p {
     color: #fff;  
 }
 
+.row {
+    padding: 30px;
+}
+
 .jumbotron {
     height: 175px;
 }
@@ -22,9 +26,10 @@ p {
 .blockquote-footer {
     height: 30px;
     padding: 5px;
+    background: #e9ecef;
 }
 
-footer {
+#footer {
     position: fixed;
     left: 0;
     bottom: 0;
