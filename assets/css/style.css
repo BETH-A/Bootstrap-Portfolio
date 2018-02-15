@@ -14,6 +14,19 @@ p {
     padding: 30px;
 }
 
+.img-fluid {
+    float: left;
+    margin-right: 15px;
+}
+
+.profile_data {
+    float: left;
+    padding-left: 30px;
+    color: #fff;
+    position: absolute;
+    left: 350px;
+}
+
 .jumbotron {
     height: 175px;
 }
