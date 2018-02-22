@@ -54,7 +54,9 @@ p {
     padding:20px;
 }
 
-
+h5 {
+    color: #666666;
+}
 /* contact styling */
 label {
     color: #fff;
@@ -79,3 +81,4 @@ a:hover {
 a:active {
     color: #666666;
 }
+
