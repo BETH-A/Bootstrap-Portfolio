@@ -59,3 +59,23 @@ p {
 label {
     color: #fff;
 }
+
+/* unvisited link */
+a:link {
+    color: #eee;
+}
+
+/* visited link */
+a:visited {
+    color: #666666;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e9ecef;
+}
+
+/* selected link */
+a:active {
+    color: aqua;
+}
