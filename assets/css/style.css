@@ -17,6 +17,8 @@ p {
 .img-fluid {
     float: left;
     margin-right: 15px;
+    height: 275px;
+    width: 300px;
 }
 
 .profile_data {
