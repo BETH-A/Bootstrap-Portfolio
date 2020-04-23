@@ -15,9 +15,8 @@
 </head>
 
 <body>
-  <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <div class="navbar-brand" >Beth Arnold</div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+        <div class="navbar-brand">Beth Arnold</div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,25 +24,21 @@
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                    <a class="nav-link" href="about.html">About
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About
                     </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <span class="sr-only">(current)</span>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
-                    <span class="sr-only">(current)</span>
                 </li>
-            </ul>
         </div>
-        <a href="https://www.linkedin.com/in/beth-arnold-640170153/" target="_blank" class="img-link">
-            <img src="assets/images/linkedIn_blackCircle.png" alt="LinkedIn Link">
-        </a>
-        <a href="https://github.com/BETH-A" target="_blank" class="img-link">
-            <img src="assets/images/github_cat.png" alt="Github Link">
-        </a>
+        </li>
+        </ul>
+        </div>
     </nav>
 
     <main role="main">
@@ -55,123 +50,67 @@
             </div>
         </div>
 
-        <div class="webApps">
-          <h2>Web Applications</h2>
-
-        <!-- Project Cards -->
-        <div class="container projectCardRow">
+        <div class="container">
             <div class="row">
-                <!-- <div class="col-md-10"> -->
+                <div class="col-md-8">
+                    <div class="card-columns">
 
-                <!-- 1st row of Project Cards -->
-                    <div class="row row1">
-                      <div class="card projectCard">
-                        <a class="img-link" href="https://beth-a.github.io/connect/" target="_blank">
-                          <img class="card-img-top" alt="RPG Game" src="assets/images/students1.jpg">
-                          <div class="card-body">
-                            <h5 class="card-title">Student Connect</h5>
-                          </div>
-                        </a>
-                        <p>Test your knowledge of the world of Harry Potter with a simple Trivia Game.
-                        One of my first applications using HTML, CSS, JavaScript, and jQuery.</p>
-                        <div class="row iconRow">
-                          <img src="assets/images/icon-laravel.png" alt="Laravel">
-                          <img src="assets/images/icons8-css3-50.png" alt="php">
-                          <img src="assets/images/icons8-javascript-50.png" alt="JavaScript">
-                          <img src="assets/images/icons8-jquery-50.png" alt="jQuery">
+                        <div class="card bg-info text-info text-center">
+                            <a class="img-link" href="https://beth-a.github.io/connect/" target="_blank">
+                                <img class="card-img-top" alt="RPG Game" src="assets/images/students1.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Student Connect</h5>
+                                </div>
+                            </a>
                         </div>
-                      </div>
 
-                      <div class="card projectCard">
-                        <a class="img-link" href="https://beth-a.github.io/Project-1/" target="_blank">
-                          <img class="card-img-top" alt="Movie Night" src="assets/images/movie.jpg">
-                          <div class="card-body">
-                            <h5 class="card-title">Movie Finder</h5>
-                          </div>
-                        </a>
-                        <p>Test your knowledge of the world of Harry Potter with a simple Trivia Game.
-                        One of my first applications using HTML, CSS, JavaScript, and jQuery.</p>
-                        <div class="row iconRow">
-                          <img src="assets/images/icons8-html-5-50.png" alt="HTML5">
-                          <img src="assets/images/icons8-css3-50.png" alt="CSS3">
-                          <img src="assets/images/icons8-javascript-50.png" alt="JavaScript">
-                          <img src="assets/images/icons8-jquery-50.png" alt="jQuery">
+                        <div class="card bg-info text-white text-center">
+                            <a class="img-link" href="https://beth-a.github.io/GifTastic/" target="_blank">
+                                <img class="card-img-top" alt="GifTastic!" src="http://78.media.tumblr.com/e3e059dec30337f593abc3b554162eb9/tumblr_nb4z62cjaL1ry46hlo1_500.gif">
+                                <div class="card-body">
+                                    <h5 class="card-title">GifTastic!</h5>
+                                </div>
+                            </a>
                         </div>
-                      </div>
 
-                      <div class="card projectCard">
-                        <a class="img-link" href="https://beth-a.github.io/clickgame/" target="_blank">
-                          <img class="card-img-top" alt="Click Game" src="assets/images/Tropical-Background-1.jpg">
-                          <div class="card-body">
-                            <h5 class="card-title">Memory Game</h5>
-                          </div>
-                        </a>
-                      <p>Test your knowledge of the world of Harry Potter with a simple Trivia Game.
-                      One of my first applications using HTML, CSS, JavaScript, and jQuery.</p>
-                      <div class="row iconRow">
-                        <img src="assets/images/icons8-html-5-50.png" alt="HTML5">
-                        <img src="assets/images/icons8-css3-50.png" alt="CSS3">
-                        <img src="assets/images/icons8-javascript-50.png" alt="JavaScript">
-                        <img src="assets/images/icons8-jquery-50.png" alt="jQuery">
-                      </div>
-                    </div>
-                  </div>
-
-                    <!-- 2nd row of Project Carts -->
-                    <div class="row row2">
-                      <div class="card projectCard">
-                        <a class="img-link" href="https://beth-a.github.io/GifTastic/" target="_blank">
-                          <img class="card-img-top" alt="GifTastic!" src="http://78.media.tumblr.com/e3e059dec30337f593abc3b554162eb9/tumblr_nb4z62cjaL1ry46hlo1_500.gif">
-                          <div class="card-body">
-                            <h5 class="card-title">GifTastic!</h5>
-                          </div>
-                        </a>
-                        <p>Test your knowledge of the world of Harry Potter with a simple Trivia Game.
-                        One of my first applications using HTML, CSS, JavaScript, and jQuery.</p>
-                        <div class="row iconRow">
-                          <img src="assets/images/icons8-html-5-50.png" alt="HTML5">
-                          <img src="assets/images/icons8-css3-50.png" alt="CSS3">
-                          <img src="assets/images/icons8-javascript-50.png" alt="JavaScript">
-                          <img src="assets/images/icons8-jquery-50.png" alt="jQuery">
+                        <div class="card bg-info text-white text-center">
+                            <a class="img-link" href="https://beth-a.github.io/Project-1/" target="_blank">
+                                <img class="card-img-top" alt="Movie Night" src="assets/images/movie.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Movie Finder</h5>
+                                </div>
+                            </a>
                         </div>
-                      </div>
 
-                      <div class="card projectCard">
-                        <a class="img-link" href="https://beth-a.github.io/TriviaGame/" target="_blank">
-                          <img class="card-img-top" alt="Trivia Game" src="assets/images/HPbackground2.jpg">
-                          <div class="card-body">
-                            <h5 class="card-title">Harry Potter Trivia</h5>
-                          </div>
-                        </a>
-                        <p>Test your knowledge of the world of Harry Potter with a simple Trivia Game.
-                        One of my first applications using HTML, CSS, JavaScript, and jQuery.</p>
-                        <div class="row iconRow">
-                          <img src="assets/images/icons8-html-5-50.png" alt="HTML5">
-                          <img src="assets/images/icons8-css3-50.png" alt="CSS3">
-                          <img src="assets/images/icons8-javascript-50.png" alt="JavaScript">
-                          <img src="assets/images/icons8-jquery-50.png" alt="jQuery">
+                        <div class="card bg-info text-info text-center">
+                            <a class="img-link" href="https://beth-a.github.io/TriviaGame/" target="_blank">
+                                <img class="card-img-top" alt="Trivia Game" src="assets/images/HPbackground2.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Harry Potter Trivia</h5>
+                                </div>
+                            </a>
                         </div>
-                      </div>
 
-
-                      <div class="card projectCard">
-                        <a class="img-link" href="https://nytreact-ba.herokuapp.com/" target="_blank">
-                          <img class="card-img-top" alt="NY Times React Scrapper" src="assets/images/nyt.jpg">
-                          <div class="card-body">
-                            <h5 class="card-title">NY Times React</h5>
-                          </div>
-                        </a>
-                        <p>Test your knowledge of the world of Harry Potter with a simple Trivia Game.
-                        One of my first applications using HTML, CSS, JavaScript, and jQuery.</p>
-                        <div class="row iconRow">
-                          <img src="assets/images/icons8-html-5-50.png" alt="HTML5">
-                          <img src="assets/images/icons8-css3-50.png" alt="CSS3">
-                          <img src="assets/images/icons8-javascript-50.png" alt="JavaScript">
-                          <img src="assets/images/icons8-jquery-50.png" alt="jQuery">
+                        <div class="card bg-info text-white text-center">
+                            <a class="img-link" href="https://beth-a.github.io/clickgame/" target="_blank">
+                                <img class="card-img-top" alt="Click Game" src="assets/images/Tropical-Background-1.jpg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Memory Game</h5>
+                                </div>
+                            </a>
                         </div>
-                      </div>
-                    </div>
 
+                        <div class="card bg-info text-white text-center">
+                            <a class="img-link" href="https://nytreact-ba.herokuapp.com/" target="_blank">
+                                <img class="card-img-top" alt="NY Times React Scrapper" src="assets/images/nyt.jpg">
+                            </a>
+                            <div class="card-body">
+                                <a class="img-link" href="https://nytreact-ba.herokuapp.com/" target="_blank">
+                                    <h5 class="card-title">NY Times React</h5>
+                                </a>
+                            </div>
+                        </div>
+                        
                         <!-- <div class="card bg-info text-white text-center">
                             <a class="img-link" href="https://beth-a.github.io/TrainScheduler/" target="_blank">
                                 <img class="card-img-top" alt="Train Scheduler" src="assets/images/train.jpg">
@@ -180,37 +119,49 @@
                                 </div>
                             </a>
                         </div> -->
+                    </div>
+                </div>
+                <div class="col-md-2 offset-1 col-sm-8 offset-1">
+                    <div class="card" style="width: 250px; text-align: center;">
+                        <div class="card-body">
+                            <h5 class="card-title">Connect with Me
+                            </h5>
+                            <hr>
+                            <a class="img-link" href="https://github.com/BETH-A" target="_blank">
+                                <img alt="Github Link" src="assets/images/if_github_square_black_107109.png">
+                            </a>
+                            <a class="img-link" href="https://stackoverflow.com/users/9201670/beth-arnold" target="_blank">
+                                <img alt="Overflow Link" src="assets/images/if_overflow_334695.png">
+                            </a>
+                            <a class="img-link" href="https://www.linkedin.com/in/beth-arnold-640170153/" target="_blank">
+                                <img alt="LinkedIn Link" src="assets/images/if_linkedin_square_color_107091.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <footer>
+                        <small>&copy;</small> copyright 2018 Beth Arnold
+                    </footer>
+                </div>
             </div>
         </div>
-      </div>
-
-
-      <div class="webApps">
-        <h2>iOS Applications</h2>
-
-
-      </div>
-
-      <div class="webApps">
-        <h2>Websites Designed</h2>
-
-
-      </div>
 
     </main>
 
-            <!-- Footer -->
-            <div class="row">
-              <div class="col-md-12">
-                  <footer id="footer">
-                      <small>&copy;</small> copyright 2020 Beth Arnold
-                  </footer>
-              </div>
-            </div>
-        </div>
-
-
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
